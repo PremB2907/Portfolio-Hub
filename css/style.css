@@ -1449,6 +1449,154 @@ section {
   color: var(--accent-cyan);
 }
 
+/* ==========================================================================
+   BEYOND THE CODE (DIGITAL PRESENCE & MULTI-FACETED IDENTITY)
+   ========================================================================== */
+.digital-presence-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+
+.presence-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-smooth);
+}
+
+.presence-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+}
+
+.presence-col-4 {
+  grid-column: span 4;
+}
+
+.presence-col-6 {
+  grid-column: span 6;
+}
+
+.presence-featured {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(13, 17, 23, 0.9));
+  border-width: 1.5px;
+}
+
+.presence-instagram:hover {
+  border-color: rgba(225, 48, 108, 0.5);
+  box-shadow: 0 20px 40px rgba(225, 48, 108, 0.15);
+}
+
+.presence-youtube:hover {
+  border-color: rgba(255, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(255, 0, 0, 0.15);
+}
+
+.presence-linkedin:hover {
+  border-color: rgba(0, 119, 181, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 119, 181, 0.15);
+}
+
+.presence-github:hover {
+  border-color: rgba(0, 242, 254, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 242, 254, 0.15);
+}
+
+.presence-x:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+}
+
+.presence-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.presence-icon-badge {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-fast);
+}
+
+.presence-card:hover .presence-icon-badge {
+  transform: scale(1.08) rotate(3deg);
+}
+
+.presence-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.presence-platform {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+
+.presence-handle {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--accent-cyan);
+  margin-top: 0.2rem;
+}
+
+.presence-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.8rem;
+  width: fit-content;
+}
+
+.presence-desc {
+  color: var(--text-muted);
+  font-size: 0.94rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.presence-action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+  transition: var(--transition-fast);
+}
+
+.presence-card:hover .presence-action {
+  gap: 0.8rem;
+  color: var(--accent-cyan);
+}
+
+@media (max-width: 1024px) {
+  .presence-col-4, .presence-col-6 {
+    grid-column: span 12;
+  }
+}
+
 .site-footer {
   border-top: 1px solid var(--border-subtle);
   padding: 2.5rem 0;

@@ -6,10 +6,11 @@
 
 // Configuration Constants
 const CONFIG = {
-  // If no YouTube channel was set, provide this identifiable placeholder
-  YOUTUBE_URL: "ADD_YOUR_YOUTUBE_CHANNEL_URL",
+  LINKEDIN_URL: "https://www.linkedin.com/in/prem-baraskar-a155b2327/",
   GITHUB_URL: "https://github.com/PremB2907",
-  LINKEDIN_URL: "https://linkedin.com/in/prem-baraskar",
+  INSTAGRAM_URL: "https://www.instagram.com/bandu_scribbles",
+  X_URL: "https://x.com/PremB2907",
+  YOUTUBE_URL: "https://www.youtube.com/@Khodkarbandya",
   EMAIL: "prem.baraskar24@sakec.ac.in",
   PHONE: "+91-8692070513"
 };

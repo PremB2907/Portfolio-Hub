@@ -37,24 +37,34 @@ An extraordinary, editorial-brutalist personal portfolio website for **Prem Bara
 
 ---
 
-## 🚀 How to Deploy to Vercel
+## 🚀 Deployment Platforms (Dual Support)
 
-1. **Import Repository**:
-   - Go to [vercel.com/new](https://vercel.com/new) and log in.
-   - Choose the GitHub repository `PremB2907/Portfolio-Hub`.
-2. **Framework Preset**:
-   - Select **Other** (since this is a pure static HTML/CSS/JS site).
-   - Build Command: Leave blank / none.
-   - Output Directory: Leave blank / root (`.`).
-3. **Deploy**:
-   - Click **Deploy**. Vercel will serve `index.html` and all static assets globally via edge CDNs.
+This static architecture runs seamlessly on **BOTH Vercel and GitHub Pages** with zero modification or build scripts.
+
+### 1. Deploying to Vercel
+1. Import `PremB2907/Portfolio-Hub` at [vercel.com/new](https://vercel.com/new).
+2. Framework Preset: **Other**.
+3. Build Command: Leave blank / none.
+4. Output Directory: Leave blank / root (`.`).
+5. Click **Deploy**. Vercel serves the website globally via Edge CDN.
+
+### 2. Deploying to GitHub Pages
+1. Go to your repository on GitHub: **Settings** > **Pages**.
+2. Under **Build and deployment** > **Source**: Select **Deploy from a branch**.
+3. Under **Branch**: Select `main` and folder `/(root)`.
+4. Click **Save**.
+5. Your portfolio will be live at:
+   👉 **https://premb2907.github.io/Portfolio-Hub/**
+   *(All asset paths are strictly relative, guaranteeing that subpaths, images, and resume downloads resolve properly on GitHub Pages)*.
 
 ---
 
 ## 🔗 Official Social Links & Verification
 
-- **LinkedIn**: [linkedin.com/in/prem-baraskar](https://linkedin.com/in/prem-baraskar)
-- **GitHub**: [github.com/PremB2907](https://github.com/PremB2907)
-- **YouTube**: Configurable in `js/script.js` and `index.html` (Search for `ADD_YOUR_YOUTUBE_CHANNEL_URL`)
+- **LinkedIn**: [linkedin.com/in/prem-baraskar-a155b2327/](https://www.linkedin.com/in/prem-baraskar-a155b2327/) — *Professional Network*
+- **GitHub**: [github.com/PremB2907](https://github.com/PremB2907) — *Open Source & Projects*
+- **Instagram**: [instagram.com/bandu_scribbles](https://www.instagram.com/bandu_scribbles) — *Public Content Creation (@bandu_scribbles)*
+- **X / Twitter**: [x.com/PremB2907](https://x.com/PremB2907) — *Thoughts & Updates (@PremB2907)*
+- **YouTube**: [youtube.com/@Khodkarbandya](https://www.youtube.com/@Khodkarbandya) — *Food & Recipes (@Khodkarbandya)*
 - **Direct Email**: [prem.baraskar24@sakec.ac.in](mailto:prem.baraskar24@sakec.ac.in)
 - **Direct Phone**: +91-8692070513
