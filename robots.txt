@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://portfolio-hub-prem.vercel.app/sitemap.xml
-
+Sitemap: https://premb2907.github.io/Portfolio-Hub/sitemap.xml
